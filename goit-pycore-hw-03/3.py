@@ -24,7 +24,7 @@ def normalize_phone(phone_number: str) -> str:
     else:
         # Локальний номер
         return "+38" + phone_number
-# Тестування
+# дані для тестування
 raw_numbers = [
     "067\t123 4567",
     "(095) 234-5678\n",
